@@ -27,5 +27,5 @@ addLoadEvent(function() {
     }
 });
 $(function () {
-  $('[data-toggle="popover"]').popover({delay: { "show": 100, "hide": 2000 }})
+  $('[data-toggle="popover"]').popover({trigger: 'focus'})
 });
