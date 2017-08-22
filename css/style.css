@@ -16,12 +16,6 @@ a:hover {
     color: #23527c;
     text-decoration: none;
 }
-.btn,
-.form-control,
-.input-group-addon {
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
-    transition: all .4s ease 0s
-}
 .logo {
     background: url("../img/logo.png") no-repeat scroll 0 0;
     width: 72px;

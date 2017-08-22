@@ -26,3 +26,6 @@ addLoadEvent(function() {
         var t1 = setTimeout("document.getElementById('" + a1[i] + "').innerHTML='<img src=\"//cdn.tufilo.com/img/good.png\" />'", randomFromTo(6000, 10000));
     }
 });
+$(function () {
+  $('[data-toggle="popover"]').popover()
+});
